@@ -49,10 +49,4 @@ public class VideoController {
         }
     }
 
-    @PostMapping("/download")
-    public ResponseEntity<String> downloadSubtitle(@RequestBody String url)
-    {
-        return new ResponseEntity<>("İNDİRME BASARILI",HttpStatus.CREATED);
-    }
-
 }
